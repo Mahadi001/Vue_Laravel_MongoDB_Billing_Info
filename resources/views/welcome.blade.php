@@ -11,16 +11,15 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
         <!-- Bootstrap -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
-
+        <style>.form-control:disabled, .form-control[readonly] {
+            background-color: #f9f9f9;
+            opacity: 1;
+        }</style>
     </head>
     <body>
         <div id="app">
-                {{-- <Navbar></Navbar> --}}
             <div class="container">
 <app-main></app-main>
-                {{-- <informations></informations> --}}
-                {{-- <editinformations  @refreshData="refreshData" ></editinformations> --}}
             </div>
         </div>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
