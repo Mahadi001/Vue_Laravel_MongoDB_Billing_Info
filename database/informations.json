@@ -1,0 +1,1 @@
+{"_id":{"$oid":"5edaa5eb7c6e00005a0078a2"},"fname":"John","lname":"Doe","username":"Jdoe","email":"jdoe@mail.com","address":"41 Lane Street","country":"USA","state":"Minesota","zip":12345,"updated_at":{"$date":"2020-06-09T12:10:33.363Z"},"created_at":{"$date":"2020-06-05T20:07:07.083Z"}}
