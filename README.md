@@ -41,3 +41,7 @@ php artisan migrate
 ```sh
 php artisan serve
 ```
+
+```sh
+npm run dev 
+```
