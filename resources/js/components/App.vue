@@ -1,11 +1,11 @@
 <template>
-    <div>
-        <Header></Header>
-        <div class="container tab-content" id="myTabContent">
-            <Information></Information>
-            <EditInformation ref="refreshViewData"></EditInformation>
-        </div>
+  <div>
+    <Header></Header>
+    <div class="container tab-content" id="myTabContent">
+      <Information></Information>
+      <EditInformation ref="refreshViewData"></EditInformation>
     </div>
+  </div>
 </template>
 
 <script>
@@ -16,22 +16,16 @@ import EditInformation from "./EditInformations.vue";
 import Header from "./Header.vue";
 
 export default {
-    name: "App",
-    components: {
-        Information,
-        EditInformation,
-        Header
-    },
-    data() {
-        return {
-            tab: 1
-        };
-    }
-    // methods: {
-    //     // Used to focus the input from the parent
-    //     focus: function() {
-    //         Console.LOG("SDF");
-    //     }
-    // }
+  name: "App",
+  components: {
+    Information,
+    EditInformation,
+    Header
+  },
+  data() {
+    return {
+      tab: 1
+    };
+  }
 };
 </script>

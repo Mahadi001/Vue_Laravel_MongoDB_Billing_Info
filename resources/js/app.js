@@ -4,7 +4,10 @@ import Vuelidate from "vuelidate";
 Vue.use(Vuelidate);
 import App from "./components/App.vue";
 
+import store from "./store.js";
+
 new Vue({
     render: h => h(App),
-    el: "#app"
+    el: "#app",
+    store: store
 });

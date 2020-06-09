@@ -15,9 +15,16 @@
 </template>
 
 <script>
-    export default {
-        mounted() {
-            console.log('Component mounted.')
+export default {
+    name: "Examplecomponent",
+    mounted() {
+        console.log("Component mounted.");
+    },
+    methods: {
+        increment() {
+            this.$store.commit("increment");
+            console.log(this.$store.state.count);
         }
     }
+};
 </script>
