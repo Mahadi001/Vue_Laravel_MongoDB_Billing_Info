@@ -23,8 +23,6 @@ Install the dependencies and devDependencies and start the server.
 ```sh
 $ composer install
 $ npm install
-$ cp .env.example .env
-$ php artisan key:generate
 ```
 In order to connect to the database:
  - Create a database
@@ -44,4 +42,8 @@ php artisan serve
 
 ```sh
 npm run dev 
+```
+or 
+```sh
+npm run watch 
 ```
