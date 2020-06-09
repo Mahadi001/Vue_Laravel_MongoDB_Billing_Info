@@ -19,9 +19,10 @@ $ git clone https://github.com/Mahadi001/Vue_Laravel_MongoDB_Billing_Info.git
 You will need to be inside the project file to enter all of the rest of the commands. Type cd projectName to move to your terminal working location to the project file.
 
 Install the dependencies and devDependencies and start the server.
+You can also download the composer [here](https://getcomposer.org/)
 
 ```sh
-$ composer install
+$ composer update
 $ npm install
 ```
 In order to connect to the database:
