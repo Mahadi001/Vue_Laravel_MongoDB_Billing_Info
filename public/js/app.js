@@ -2246,6 +2246,8 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
           console.log(res);
 
           _this.getInfo();
+
+          alert("Data updated successfully");
         });
       }
     }
@@ -55241,8 +55243,8 @@ vue__WEBPACK_IMPORTED_MODULE_1___default.a.use(vuex__WEBPACK_IMPORTED_MODULE_2__
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp\htdocs\Project\Vue_Laravel_Mongodb\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\Project\Vue_Laravel_Mongodb\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\xampp\htdocs\Project\New folder\Vue_Laravel_MongoDB_Billing_Info\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\Project\New folder\Vue_Laravel_MongoDB_Billing_Info\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

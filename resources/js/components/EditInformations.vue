@@ -276,6 +276,7 @@ export default {
         axios.put("api/informations/" + _id, this.informations).then(res => {
           console.log(res);
           this.getInfo();
+          alert("Data updated successfully");
         });
       }
     }
